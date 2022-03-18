@@ -28,7 +28,7 @@ namespace ClubeDaLeitura
                 if (revista[i] == null)
                     continue;
 
-                Console.WriteLine($"Revista: {revista[i].mes},{revista[i].dia},{revista[i].anos} ,{revista[i].nedicao}, {revista[i].colecao}. Revista numero: {i}");
+                Console.WriteLine($"Revista: {revista[i].datarevista} ,{revista[i].nedicao}, {revista[i].colecao}. Revista numero: {i}");
             }
 
             do

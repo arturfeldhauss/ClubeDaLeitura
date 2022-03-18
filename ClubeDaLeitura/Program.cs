@@ -12,6 +12,7 @@ namespace ClubeDaLeitura
             Pessoa[] pessoa = new Pessoa[100];
             Emprestimo[] emprestimo = new Emprestimo[100];
             AcharObjeto acharObjeto = new AcharObjeto();
+            reserva reserva = new reserva();
             do
             {
                 switch (menu.MenuPrincipal())
@@ -54,6 +55,11 @@ namespace ClubeDaLeitura
                         break;
 
                     case 9:
+                        
+                        reserva.reservarrevista(revista, pessoa);
+                        break;
+
+                    case 10:
                         return;
 
                 }

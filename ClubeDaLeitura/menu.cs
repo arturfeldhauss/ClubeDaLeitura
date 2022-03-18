@@ -25,10 +25,16 @@ namespace ClubeDaLeitura
             Console.WriteLine("Digite 6 para visualizar as caixas");
             Console.WriteLine("Digite 7 para visualizar os amigos");
             Console.WriteLine("Digite 8 para visualizar os emprestimos");
+            Console.ForegroundColor= ConsoleColor.Green;
+            Console.WriteLine("AREA DE RESERVA");
+            Console.ResetColor();
+            Console.WriteLine("Digite 9 para reservar uma revista");
 
-            
 
-            Console.WriteLine("Digite 9 para sair");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("================");
+            Console.WriteLine("Digite 10 para sair\n");
+            Console.ResetColor();
             opcao = Convert.ToInt32(Console.ReadLine());
             return opcao;
         }
